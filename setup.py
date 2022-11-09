@@ -156,8 +156,8 @@ setup(
     # `pip` to create the appropriate form of executable for the target
     # platform.
     #
-    # For example, the following would provide a command called `doorbell` which
-    # executes the function `main` from this package when invoked:
+    # For example, the following would provide a command called `doorbell`
+    # which executes the function `main` from this package when invoked:
     entry_points={  # Optional
         "console_scripts": [
             "doorbell=doorbell:main",
